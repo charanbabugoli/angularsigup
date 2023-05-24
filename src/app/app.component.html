@@ -1,0 +1,77 @@
+<!-- <div class="card w-50 mx-auto mt-4">
+    <h4 class="card-headet text-center">Register here</h4>
+    <div class="form-group">
+        <form [formGroup]="regForm">
+            <div class="form-group">
+                <label for="">User Name</label>
+                <input type="text" formControlName= "uname" class="form-control">
+               
+                <div *ngIf="regForm.controls['uname'].touched &&regForm.controls['uname']?.['errors']" class="invalid">
+                    <div *ngIf="regForm.controls['uname']?.['errors']?.['required']">
+                        username is required
+                    </div>
+                    <div *ngIf="regForm.controls['uname']?.['errors']?.['minlength']">
+                        username is minimum 4 character
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="text" formControlName= "uname" class="form-control">
+                
+                <div *ngIf="regForm.controls['Email'].touched &&regForm.controls['Email']?.['errors']" class="invalid">
+                    <div *ngIf="regForm.controls['Email']?.['errors']?.['required']">
+                        email is required
+                    </div>
+                    <div *ngIf="regForm.controls['Email']?.['errors']?.['Email']">
+                        Enter valid email
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">password</label>
+                <input type="text" formControlName= "password" class="form-control">
+           
+                <div *ngIf="regForm.controls['password'].touched &&regForm.controls['password']?.['errors']" class="invalid">
+                    <div *ngIf="regForm.controls['password']?.['errors']?.['required']">
+                        password is required
+                    </div>
+                    <div *ngIf="regForm.controls['password']?.['errors']?.['password']">
+                        password is minimum 4 characters
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">confirm password</label>
+                <input type="text" formControlName= "cpassword" class="form-control">
+              
+                <div *ngIf="regForm.controls['cpassword'].touched &&regForm.controls['cpassword']?.['errors']" class="invalid">
+                    <div *ngIf="regForm.controls['cpassword']?.['errors']?.['required']">
+                        confirmpassword
+                    </div> -->
+                    <!--<div *ngIf="regForm.controls['cpassword']?.['errors']?.['cpassword']">
+                        password is minimum 8 characters
+                    </div>-->
+                <!-- </div>
+            </div>
+            <label>Gender</label>
+
+            <label>
+                <input type="radio" name="gender"formControlName="gender">Female
+            </label>
+            <label>
+                <input type="radio" name="g"formControlName="gender">Male
+            </label>
+            <div>
+                <label>
+                    <input type="checkbox" formControlName="subscribe"> subscribe
+                </label>
+            </div>
+            <button class="btn btn-primary" (click)="show()">click</button>
+        </form>
+    </div>
+</div> -->
+
+
+
+<app-charan></app-charan>
